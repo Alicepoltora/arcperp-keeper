@@ -1,0 +1,16 @@
+{
+  "name": "arcperp-keeper",
+  "version": "1.0.0",
+  "description": "ArcPerp keeper bot — updates oracle prices every 60s",
+  "main": "keeper.js",
+  "scripts": {
+    "start": "node keeper.js"
+  },
+  "dependencies": {
+    "ethers": "^6.7.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
